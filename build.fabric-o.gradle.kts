@@ -30,6 +30,9 @@ platform {
 			fabricLikeVersionRange = ">=${prop("deps.fabric-loader")}"
 		}
 		optional("modmenu") {}
+		optional("bobby") {}
+		required("sodium-extra") {}
+		embeds("sodium") {}
 	}
 }
 
