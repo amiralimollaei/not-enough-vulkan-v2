@@ -79,5 +79,5 @@ dependencies {
 
 	// compat
 	implementation("maven.modrinth:bobby:${prop("deps.bobby")}")
-	implementation("maven.modrinth:sodium-extra:${prop("deps.sodium_extra")}")
+	implementation("maven.modrinth:sodium-extra:${prop("deps.sodium-extra")}")
 }

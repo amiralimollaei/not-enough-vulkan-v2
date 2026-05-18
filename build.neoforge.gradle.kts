@@ -72,7 +72,7 @@ dependencies {
 
 	// compat
 	modImplementation("maven.modrinth:bobby:${prop("deps.bobby")}")
-	modImplementation("maven.modrinth:sodium-extra:${prop("deps.sodium_extra")}")
+	modImplementation("maven.modrinth:sodium-extra:${prop("deps.sodium-extra")}")
 }
 
 tasks.named("createMinecraftArtifacts") {
