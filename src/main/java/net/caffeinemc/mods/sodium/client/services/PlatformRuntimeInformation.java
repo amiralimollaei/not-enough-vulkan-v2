@@ -49,14 +49,8 @@ public interface PlatformRuntimeInformation {
     boolean isModInLoadingList(String modId);
 
 	//? if >= 26.1 {
-	/**
-	 * @return Whether {@link VertexConsumer#putBakedQuad(PoseStack.Pose, BakedQuad, QuadInstance)} should multiply the vertex color by the baked quad color.
-	 */
 	boolean usesBakedQuadColorMultiplication();
 	//? } else {
-	// /**
-	// * @return Whether {@link VertexConsumer#putBulkData(PoseStack.Pose, BakedQuad, float[], float, float, float, float, int[], int, boolean)} should multiply the vertex alpha component.
-	// */
 	//boolean usesAlphaMultiplication();
 	//? }
 }
