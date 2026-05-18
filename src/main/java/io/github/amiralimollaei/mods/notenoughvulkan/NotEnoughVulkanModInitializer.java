@@ -15,7 +15,7 @@ public class NotEnoughVulkanModInitializer implements ClientModInitializer {
         ModSettingsRegistry.INSTANCE.addModEntry(
                 new ModSettingsEntry(
                         Component.literal("NEV").withStyle(ChatFormatting.RED),
-                        () -> Identifier.fromNamespaceAndPath("not-enough-vulkan", "textures/icon.png"),
+                        () -> Identifier.fromNamespaceAndPath("not-enough-vulkan", "icon.png"),
                         Options::getModOptions,
                         () -> {
                             SodiumExtraClientMod.options().writeChanges();
