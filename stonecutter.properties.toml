@@ -24,7 +24,7 @@ deps.fabric-loader = "0.19.2"
 
 [fabric."1.21.10"]
 deps.minecraft = "1.21.10"
-deps.minecraft-range = "1.21.10
+deps.minecraft-range = "1.21.10"
 deps.fabric-api = "0.138.0+1.21.10"
 deps.modmenu = "16.0.1"
 deps.vulkanmod = "Q4sHI9BA"
