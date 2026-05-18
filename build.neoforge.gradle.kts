@@ -60,20 +60,6 @@ neoForge {
 
 repositories {
 	mavenCentral()
-
-	exclusiveContent {
-		forRepository {
-			maven {
-				name = "Modrinth"
-				url = "https://api.modrinth.com/maven"
-			}
-		}
-		// forRepositories(fg.repository) // Only add this if you're using ForgeGradle, otherwise remove this line
-		filter {
-			includeGroup "maven.modrinth"
-		}
-	}
-
 	strictMaven("https://api.modrinth.com/maven", "maven.modrinth") { name = "Modrinth" }
 }
 

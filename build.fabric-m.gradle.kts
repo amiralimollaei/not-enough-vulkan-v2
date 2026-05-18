@@ -62,19 +62,6 @@ fabricApi {
 repositories {
 	mavenCentral()
 
-	exclusiveContent {
-		forRepository {
-			maven {
-				name = "Modrinth"
-				url = "https://api.modrinth.com/maven"
-			}
-		}
-		// forRepositories(fg.repository) // Only add this if you're using ForgeGradle, otherwise remove this line
-		filter {
-			includeGroup "maven.modrinth"
-		}
-	}
-
 	strictMaven("https://maven.terraformersmc.com/", "com.terraformersmc") { name = "TerraformersMC" }
 	strictMaven("https://api.modrinth.com/maven", "maven.modrinth") { name = "Modrinth" }
 }
