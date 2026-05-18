@@ -46,7 +46,7 @@ sealed class Loader(val id: String) {
 					}
 				},
 				description = ctx.description,
-				icon = "assets/icon.png",
+				icon = "assets/${ctx.modId}/icon.png",
 				license = ctx.licenseName,
 				accessWidener = "aw/${ctx.currentMcVersion}.accesswidener",
 				entrypoints = mapOf(
