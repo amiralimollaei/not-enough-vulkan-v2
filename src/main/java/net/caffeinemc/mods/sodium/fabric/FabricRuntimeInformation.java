@@ -42,9 +42,9 @@ public class FabricRuntimeInformation implements PlatformRuntimeInformation {
 		return false;
 	}
 	//? } else {
-	@Override
-	public boolean usesAlphaMultiplication() {
-		return false;
-	}
+	//@Override
+	//public boolean usesAlphaMultiplication() {
+	//	return false;
+	//}
 	//? }
 }

@@ -1,14 +1,12 @@
 package net.caffeinemc.mods.sodium.client.services;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-//? if >= 26.1 {
-import com.mojang.blaze3d.vertex.QuadInstance;
-//? }
 import com.mojang.blaze3d.vertex.VertexConsumer;
 //? if >= 26.1 {
+import com.mojang.blaze3d.vertex.QuadInstance;
 import net.minecraft.client.resources.model.geometry.BakedQuad;
 //? } else {
-import net.minecraft.client.renderer.block.model.BakedQuad;
+//import net.minecraft.client.renderer.block.model.BakedQuad;
 //? }
 
 import java.nio.file.Path;
