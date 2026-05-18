@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "not-enough-vulkan",
+  "version": "2.0.0",
+  "name": "Not Enough Vulkan",
+  "description": "Compatibility layer for VulkanMod.",
+  "authors": [
+    {
+      "name": "amiralimollaei",
+      "contact": {
+        "homepage": "https://amiralimollaei.github.io"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/not-enough-vulkan",
+    "sources": "https://github.com/amiralimollaei/not-enough-vulkan",
+    "issues": "https://github.com/amiralimollaei/not-enough-vulkan/issues"
+  },
+  "license": "LGPLv3",
+  "icon": "assets/not-enough-vulkan/textures/icon-64x.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.amiralimollaei.mods.notenoughvulkan.NotEnoughVulkanModInitializer",
+      "me.flashyreese.mods.sodiumextra.SodiumExtraFabricClientModInitializer"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/BFmZU9kUbR",
+        "modmenu.github_releases": "https://github.com/amiralimollaei/not-enough-vulkan/releases",
+        "modmenu.modrinth": "https://modrinth.com/mod/not-enough-vulkan"
+      }
+    }
+  },
+  "mixins": [
+    "not-enough-vulkan.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18",
+    "vulkanmod": ">=0.6.3",
+    "sodium-extra": ">=0.6.3",
+    "minecraft": ">=26.1"
+  },
+  "provides": [
+    "sodium"
+  ]
+}
