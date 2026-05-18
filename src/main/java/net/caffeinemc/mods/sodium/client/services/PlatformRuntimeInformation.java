@@ -54,9 +54,9 @@ public interface PlatformRuntimeInformation {
 	 */
 	boolean usesBakedQuadColorMultiplication();
 	//? } else {
-	/**
-	 * @return Whether {@link VertexConsumer#putBulkData(PoseStack.Pose, BakedQuad, float[], float, float, float, float, int[], int, boolean)} should multiply the vertex alpha component.
-	 */
-	boolean usesAlphaMultiplication();
+	// /**
+	// * @return Whether {@link VertexConsumer#putBulkData(PoseStack.Pose, BakedQuad, float[], float, float, float, float, int[], int, boolean)} should multiply the vertex alpha component.
+	// */
+	//boolean usesAlphaMultiplication();
 	//? }
 }
