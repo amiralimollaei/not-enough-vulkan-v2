@@ -14,23 +14,22 @@
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/not-enough-vulkan",
-    "sources": "https://github.com/amiralimollaei/not-enough-vulkan",
-    "issues": "https://github.com/amiralimollaei/not-enough-vulkan/issues"
+    "sources": "https://github.com/amiralimollaei/not-enough-vulkan-v2",
+    "issues": "https://github.com/amiralimollaei/not-enough-vulkan-v2/issues"
   },
   "license": "LGPLv3",
-  "icon": "assets/not-enough-vulkan/textures/icon-64x.png",
+  "icon": "assets/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "io.github.amiralimollaei.mods.notenoughvulkan.NotEnoughVulkanModInitializer",
-      "me.flashyreese.mods.sodiumextra.SodiumExtraFabricClientModInitializer"
+      "io.github.amiralimollaei.mods.notenoughvulkan.NotEnoughVulkanModInitializer"
     ]
   },
   "custom": {
     "modmenu": {
       "links": {
         "modmenu.discord": "https://discord.gg/BFmZU9kUbR",
-        "modmenu.github_releases": "https://github.com/amiralimollaei/not-enough-vulkan/releases",
+        "modmenu.github_releases": "https://github.com/amiralimollaei/not-enough-vulkan-v2/releases",
         "modmenu.modrinth": "https://modrinth.com/mod/not-enough-vulkan"
       }
     }

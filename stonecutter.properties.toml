@@ -1,0 +1,55 @@
+mod.id = "not-enough-vulkan"
+mod.name = "Not Enough Vulkan"
+mod.group = "io.github.amiralimollaei.mods.notenoughvulkan"
+mod.version = "2.0.0"
+mod.channel_tag = ""
+mod.description = "Compatibility layer for VulkanMod."
+mod.authors = ["amiralimollaei"]
+mod.contributors = []
+mod.inception_year = "2026"
+mod.license.name = "LGPLv3"
+mod.license.url = "https://github.com/amiralimollaei/not-enough-vulkan-v2/blob/main/LICENSE.txt"
+mod.license.dist = "repo"
+mod.sources_url = "https://github.com/amiralimollaei/not-enough-vulkan-v2"
+mod.homepage_url = "https://github.com/amiralimollaei/not-enough-vulkan-v2"
+mod.issues_url = "https://github.com/amiralimollaei/not-enough-vulkan-v2/issues"
+mod.discord_url = "https://discord.gg/BFmZU9kUbR"
+[[mod.pom.developers]]
+id = "amiralimollaei"
+name = "amiralimollaei"
+url = "https://github.com/ghost"
+
+[fabric]
+deps.fabric-loader = "0.19.2"
+
+[fabric."1.21.10"]
+deps.minecraft = "1.21.10"
+deps.fabric-api = "0.138.0+1.21.10"
+deps.modmenu = "16.0.0-alpha.1"
+
+[fabric."1.21.11"]
+deps.minecraft = "1.21.11"
+deps.fabric-api = "0.128.1+1.21.7"
+deps.modmenu = "17.0.0-alpha.1"
+
+[fabric."26.1.1"]
+deps.minecraft = "26.1.1"
+deps.fabric-api = "0.145.3+26.1.1"
+deps.modmenu = "18.0.0-alpha.1"
+publish.additionalVersions = ["26.1.2", "26.1"]
+
+#[neoforge]
+
+#[neoforge."1.21.10"]
+#deps.minecraft = "1.21.10"
+#deps.neoforge = "21.1.213"
+
+#[neoforge."1.21.11"]
+#deps.minecraft = "1.21.7"
+#deps.neoforge = "21.7.1-beta"
+#publish.additionalVersions = ["1.21.6"]
+
+#[neoforge."26.1.1"]
+#deps.minecraft = "26.1.2"
+#deps.neoforge = "26.1.2.29-beta"
+#publish.additionalVersions = ["26.1.1", "26.1"]

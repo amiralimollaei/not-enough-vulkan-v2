@@ -1,9 +1,13 @@
 {
+  "package": "io.github.amiralimollaei.mods.notenoughvulkan.not-enough-vulkan.mixin",
+  "plugin": "io.github.amiralimollaei.mods.notenoughvulkan.mixin.NotEnoughVulkanMixinConfigPlugin",
   "required": true,
   "minVersion": "0.8",
-  "plugin": "io.github.amiralimollaei.mods.notenoughvulkan.mixin.NotEnoughVulkanMixinConfigPlugin",
-  "package": "io.github.amiralimollaei.mods.notenoughvulkan.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "${java}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [],
   "client": [
     "compat.bobby.FakeChunkManagerMixin",
     "compat.bobby.OptionsMixin",
@@ -12,8 +16,5 @@
     "compat.monitor_selector.OptionsMixin",
     "compat.monitor_selector.VideoModeManagerMixin",
     "compat.skip_wayland_patches.PlatformMixin"
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+  ]
 }
