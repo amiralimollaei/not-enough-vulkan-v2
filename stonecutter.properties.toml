@@ -26,16 +26,25 @@ deps.fabric-loader = "0.19.2"
 deps.minecraft = "1.21.10"
 deps.fabric-api = "0.138.0+1.21.10"
 deps.modmenu = "16.0.0-alpha.1"
+deps.vulkanmod = "Q4sHI9BA"
+deps.bobby = "xiXouhmS"
+deps.sodium-extra = "8CGTW5B3"
 
 [fabric."1.21.11"]
 deps.minecraft = "1.21.11"
 deps.fabric-api = "0.128.1+1.21.7"
 deps.modmenu = "17.0.0-alpha.1"
+deps.vulkanmod = "GWeVLaJq"
+deps.bobby = "y6wx9vV9"
+deps.sodium-extra = "yqY1efrC"
 
 [fabric."26.1.1"]
 deps.minecraft = "26.1.1"
 deps.fabric-api = "0.145.3+26.1.1"
 deps.modmenu = "18.0.0-alpha.1"
+deps.vulkanmod = "cE3q13FI"
+deps.bobby = "8gsFUovP"
+deps.sodium-extra = "1bz3AMCV"
 publish.additionalVersions = ["26.1.2", "26.1"]
 
 #[neoforge]
