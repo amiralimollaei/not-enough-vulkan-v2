@@ -20,7 +20,8 @@ data class FabricManifest(
 	val mixins: List<String>,
 	val depends: Map<String, String> = emptyMap(),
 	val recommends: Map<String, String> = emptyMap(),
-	val breaks: Map<String, String> = emptyMap()
+	val breaks: Map<String, String> = emptyMap(),
+	val provides: List<String> = emptyList()
 )
 
 @Serializable

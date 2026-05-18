@@ -57,7 +57,9 @@ sealed class Loader(val id: String) {
 				mixins = listOf("${ctx.modId}.mixins.json"),
 				depends = ctx.extension.dependencies.required.associate { it.modid.get() to it.fabricLikeVersionRange.get() },
 				recommends = ctx.extension.dependencies.optional.associate { it.modid.get() to it.fabricLikeVersionRange.get() },
-				breaks = ctx.extension.dependencies.incompatible.associate { it.modid.get() to it.fabricLikeVersionRange.get() })
+				breaks = ctx.extension.dependencies.incompatible.associate { it.modid.get() to it.fabricLikeVersionRange.get() },
+				provides = ctx.extension.dependencies.embeds.map { it.modid.get() }
+			)
 			return JSON.encodeToString(manifest)
 		}
 	}

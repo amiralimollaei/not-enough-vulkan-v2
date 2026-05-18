@@ -179,6 +179,7 @@ abstract class ModPlatformPlugin @Inject constructor() : Plugin<Project> {
 			)
 			into(rootProject.layout.buildDirectory.file("libs/${ctx.basicVersion}"))
 			dependsOn("build")
+			group = "build"
 		}
 	}
 }
