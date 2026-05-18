@@ -1,5 +1,5 @@
 {
-  "package": "io.github.amiralimollaei.mods.notenoughvulkan.not-enough-vulkan.mixin",
+  "package": "io.github.amiralimollaei.mods.notenoughvulkan.mixin",
   "plugin": "io.github.amiralimollaei.mods.notenoughvulkan.mixin.NotEnoughVulkanMixinConfigPlugin",
   "required": true,
   "minVersion": "0.8",
