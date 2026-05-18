@@ -23,8 +23,8 @@ stonecutter {
 			loaders.forEach { version("$version-$it", version).buildscript = getBuildscript(it, version) }
 
 		match("26.1.1", "fabric")
-		match("1.21.11", "fabric")
-		match("1.21.10", "fabric")
+		// match("1.21.11", "fabric")
+		// match("1.21.10", "fabric")
 
 		vcsVersion = "26.1.1-fabric"
 	}
