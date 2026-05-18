@@ -52,7 +52,7 @@ class Context(
 	val isSnapshot: Boolean by lazy { !project.envTrue("MOD_IS_RELEASE") }
 	val baseVersion: String by lazy { "$modVersion$channelTag" }
 	val snapshotSuffix: String by lazy { if (isSnapshot) "-SNAPSHOT" else "" }
-	val fullVersion: String by lazy { "$baseVersion-${loader.id}+$currentMcVersion$snapshotSuffix" }
+	val fullVersion: String by lazy { "$baseVersion-${loader.id}+mc$currentMcVersion$snapshotSuffix" }
 	val basicVersion: String by lazy { "$baseVersion$snapshotSuffix" }
 
 	val publishAdditionalVersions: List<String> by lazy {

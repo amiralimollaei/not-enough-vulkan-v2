@@ -32,7 +32,7 @@ sealed class Loader(val id: String) {
 			val manifest = FabricManifest(
 				id = ctx.modId,
 				name = ctx.modName,
-				version = ctx.baseVersion,
+				version = ctx.fullVersion,
 				authors = ctx.authors,
 				contributors = ctx.contributors,
 				contact = mapOf(
