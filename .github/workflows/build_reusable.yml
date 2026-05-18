@@ -49,7 +49,7 @@ jobs:
             ${{ runner.os }}-gradle-
 
       - name: Build with Gradle
-        run: MOD_IS_RELEASE=true ./gradlew buildAndCollect --no-daemon
+        run: ./gradlew buildAndCollect --no-daemon
 
       - name: Upload artifacts
         id: upload
